@@ -62,8 +62,8 @@ ggplot(xmprice.r.df, aes(Rate)) + stat_ecdf(colour = "blue",size = 1.5) + geom_v
 dev.off()
                                                                                                            
 #This may be a little more than we bargained for originally. We used the paste and round
-#(to two, 2, decimal places) functions to make a label. We made much thicker lines (size =
-                                                                                     1.5). At 2% we drew a line with geom_vline() and annotated the line with text.
+#(to two, 2, decimal places) functions to make a label. We made much thicker lines (size =1.5). At 2% we drew a line with geom_vline() and annotated the line with text.
+                                                                                     
 
 
 
